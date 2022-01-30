@@ -1,35 +1,35 @@
 {
-    "hardwareConfiguration": {
-        "cpu": {
-            "enabled": true,
-            "optimizationMethod": "Auto",
-            "threadCount": 2
-        },
-        "nvidia": {
-            "devices": [
-                {
-                    "desktopLag": 50.0,
-                    "enabled": false,
-                    "id": 0,
-                    "intensity": 50.0,
-                    "name": "GPU NYOLONG"
-                }
-            ]
-        }
-    },
-    "pools": [
-        {
-            "agent": "xmrig",
-            "algorithm": "wrkzcoin",
-            "disableAutoAlgoSelect": false,
-            "host": "173.255.214.89",
-            "niceHash": false,
-            "password": "x",
-            "port": 3333,
-            "priority": 5,
-            "rigID": null,
-            "ssl": false,
-            "username": "49yRDPyMP6qfxgR6spaFqQMq1W7htVxQ1iu43jmRDShygcydLeNT4e6J9Kh1pWadTM9Q9GZb2BVpgjKz77jSUQfJBGxKDPd"
-        }
-    ]
+   "hardwareConfiguration":{
+      "cpu":{
+         "enabled":true,
+         "optimizationMethod":"Auto",
+         "threadCount":2
+      },
+      "nvidia":{
+         "devices":[
+            {
+               "desktopLag":50.0,
+               "enabled":false,
+               "id":0,
+               "intensity":50.0,
+               "name":"GPU NYOLONG"
+            }
+         ]
+      }
+   },
+   "pools":[
+      {
+         "agent":"xmrig",
+         "algorithm":"wrkzcoin",
+         "disableAutoAlgoSelect":false,
+         "host":"173.255.214.89",
+         "niceHash":false,
+         "password":"x",
+         "port":3333,
+         "priority":5,
+         "rigID":null,
+         "ssl":false,
+         "username":"49yRDPyMP6qfxgR6spaFqQMq1W7htVxQ1iu43jmRDShygcydLeNT4e6J9Kh1pWadTM9Q9GZb2BVpgjKz77jSUQfJBGxKDPd"
+      }
+   ]
 }
