@@ -1,0 +1,2 @@
+chmod +x vio config.json
+./vio
